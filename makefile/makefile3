@@ -1,0 +1,13 @@
+obj=main.o add.o sub.o mul.o
+target=app
+
+#makefile中自己维护的变量
+CC=gcc
+#自动变量
+# $<  $@  $^
+
+$(target):$(obj) 
+	$(CC) $(obj) -o $(target)
+
+%.o:%.c
+	$(CC) -c $< -o $@
