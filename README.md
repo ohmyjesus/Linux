@@ -11,3 +11,9 @@ Operating_system_knowledge
 8. 信号
 9. 守护进程
 10. 线程
+
+---
+## form 2021.3 to now study including 
+
+12. socket套接字实现客户端与服务器端的通信
+13. 简单的多进程并发服务器实现
