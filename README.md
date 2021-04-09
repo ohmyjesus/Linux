@@ -1,6 +1,6 @@
 # Linux
 Operating_system_knowledge
-### Includes the following parts
+### Last year I learn Includes the following parts
 1. gcc编译
 2. gdb调试
 3. makefile
