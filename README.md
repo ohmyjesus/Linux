@@ -34,3 +34,6 @@ Operating_system_knowledge
 ### 5. 线程池
 
 ### 6. 本地套接字
+
+### 7. 生产者消费者模型
+
