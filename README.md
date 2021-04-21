@@ -70,3 +70,4 @@ Operating_system_knowledge
 &emsp;&emsp;进程间也可以使用互斥锁，来达到同步的目的，但应在pthread_mutex_init初始化之前，修改其属性为进程间共享PTHREAD_PROCESS_SHARED 。借助fcntl函数来实现锁机制，操作文件的进程没有获得锁时，可以打开，但无法执行read，write操作，也是以读的方式加锁，以写的方式加锁，解锁。进程的文件锁和线程的读写锁一样，都是读共享，写独占。
 
 文件锁适用于进程之间，而读写锁适用于线程之间。
+<p align="right">by2021.4.21</p>
